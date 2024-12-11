@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR/AR Технології</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">VR/AR Tech</div>
+            <ul class="nav-links">
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про технології</a></li>
+                <li><a href="#applications">Застосування</a></li>
+                <li><a href="#author">Дізнатися більше</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Віртуальна та Доповнена Реальність</h1>
+            <p>Інноваційні технології, що змінюють наше сприйняття світу</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn primary">Дізнатися більше</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Про VR/AR Технології</h2>
+            <div class="tech-container">
+                <div class="tech-card">
+                    <h3>Віртуальна Реальність (VR)</h3>
+                    <img src="https://images.unsplash.com/photo-1478416272538-5f7e51dc5400" alt="VR окуляри">
+                    <p>Технологія, що створює повністю імерсивний цифровий світ. За допомогою VR-шолома користувач повністю занурюється у віртуальне середовище, де може:</p>
+                    <ul>
+                        <li>Взаємодіяти з 3D-об'єктами</li>
+                        <li>Переміщуватися у віртуальному просторі</li>
+                        <li>Відчувати ефект присутності</li>
+                        <li>Навчатися у безпечному середовищі</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h3>Доповнена Реальність (AR)</h3>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEBUPEBIVFRAVEhUQEBcQFRAQFRUVFRUWFxcVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGi0lHSUtLS0tLS0tLS0tLS0tKy0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tKy0tLS0tLS0tLf/AABEIALsBDQMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBAwQCB//EAD0QAAEDAgMFBwICCAYDAAAAAAEAAhEDEgQhMQUGQVFxEyJhgZGhsTLBQtEUI2JjcpLC8AczUoKy4RUWov/EABsBAQACAwEBAAAAAAAAAAAAAAABAwIEBQYH/8QANxEAAgIBAgQCCAUDBAMAAAAAAAECEQMEIQUSMUFRYRMiMnGBkbHRBiOhweEU8PEzQnKCJFJi/9oADAMBAAIRAxEAPwCSlewo+ViUAlAJQCUAuSgJSgJQCUBmUBiUJMyhJi5KDQuSjESlASlEiUIEoBKASgEoBKASgEoBKASgEoBKASgEpRIuSgLkoC5KBkFQ0SjwsiAgCAIBKAIAgCAIBKgGnF4ynSF1V7WD9ogenNRKUV1L8Omy5nWOLfuKrtbfxjZbhm3n/W+Q3yGp9lryz+B6HSfh2TqWolXkuvzKtid5MTVdc6s4QZAYezA8h91h6RvqzvYuHaXFGowXx3+pc9095RXAoVT+vA7pMRUA/qj1V8Ml7M8zxfhLw3mxL1O68P4LMrjz4lAEAlAJQCUAQCUAlAZlQDEqQJQCUAlAJQCVAEqQJQCUBkFQyUeEAQBBQQCUFBBQQBAR+2NtUcK2aru8RLWNzc7oOA8Sq8mWMOpvaPh+bVP1Ft3fYou099MTVJFMik3hbm6PFx+wC0Z6qT2R6zTcB02JXNcz8+nyK5iMQ57rnOLnHUuJcT5lUpt7s68YxhHlgqXgjwxhcYGZ8FmmZVZ30djVX6NKzeNSMlBndh938VTc2rTGbSHNzgggyFisU4u0yJ4lOLi+j2LX/wC5ta+ytRfTPDT7xktj+qp1JUeTyfhqSXqZN/NFhwWNZWZfTMj3HgVswmpq0cHVaPLpp8mRfyb1maoQGZQGJQCUAQBAJQBAEFCUFCUAlAJQUJQUJQCUFGWqGSjwpAQBAEAQBAEJK9vdvH+iNDKcGu8SJzDG/wCojj4D+zp6rVei9VdTt8I4V/VN5MnsL9X4fc+bVq76jjVquLnnMlxkrlubk7kz2uPFHFFRiqXgaXO4eqzRk2ZoMLjCzi7ISLVsbBNbGS2IquhakW7BsasjIlaNMJbIs87Q2XQrMsqsaW+ORHiDwPiFl7Spk9SmUWu2Zigwvvw1TIOBaSBOjwNCJHkfJRjjLHLboczieijqcLj3W6ZdW1AdCD0IK3z568c11TPaGBhAEICAIAhIQBCAgCAIAgCAIAgCAyEMkeJQgSgEoBKASgEoDn2jjmUKT6z/AKWCep4NHiTAVWbKsUHNmzpNNPU5o4odX+niz5Dj8W+vVdWqHvPM+AHADwAAHkvOyyOcnKXVn0vT6aGHHHHBbL+7+Jzud+asTMpmkn1KzctveVEtgqYYLnEDqtiEaRmtiUw+NI+hhPie4Pz9ltRg2HNI7ae0K5/GGfwNuPq6fhXxxLuVyy+B00yan116rjyL3tH8oIC2YYoLsaWXUZI9EdbNjUzn2bSeZAPuVdFxRoy1mRnSNlsAmxsdArIyTdFMtXlW9nOzYja5inSbPg1vzwWWRwivWLo8R5V6zs81t3sVh+8xz7Rr2dQtI8gYPmIWspYpdPsZLUaXUerOK+KJHA4ysy0VXB7HZAkNZVBGuQyf5CeqmeNL2Wc3WcKxyt4dpLt2f2JmVSebarYShAlAJQCUAlAJQCUAlAJQCUAlAJQCUB6BUMlGuVJIlAJQCUAlAJQFK/xFxZPZYcfTnUd46gff1XE4rl9eOPt1Pa/hfRr0Us76t8q9yVv9il1G/Yeq5akernGtvcvmaax7xVsZGpm3kzowWAc9rqujGRPMk8gslP1lZOHA8m/ZEls6m10uMADUuOnmdF2dPGPLzM0dTlcHUFuyXZRuAFOHNPFsEHzW5Gcas5rzTUvW6lj2fshjR3+87wkAdOaolqJP2djVyZ5y7nTiNlUnfhtPAifiVZjzS7uyvHqZwfU58TjP0anmwvfda1oIbORM3HhA91sJOb9UuqM3zXSNWzdtGu40XUrS6malMtdeHARLTkIOYWb9Rp+VmOXFFRbT6OmXbA4MUmBg8zzPErSnkc3bObLdmcQ2Api7IjaZSd+cKxrWVHPbTBIAcWPe5mYJcy3MRAPDUcgDbGaSfN2Oxo5ydqrJ1saAyOHTUe0LI81r4pZ3Xen+hmUNMSgEoBKASgEoBKASgEoBKASgEoBKAy0qGSjxKkUJQmhKChKEUJQUYLoEnIcZyRuiVFt0ihb816T6rHMqMcbC1wa4OgtM5xzn2XnuKpelUk+30PoX4ZeTHppYssWqdq/NfwQtHZVasRY3uyDc7uty8ePkuamehyxblt4kxQ3fw9BprYh9xE5HutmMoAzcfBSpvsVPDFO2QWAxZbTqM4ODSesELZ1DUpponQyqM7OnY1EPo1O8AWOFTvfTAB19SurppflL3nC1Lcci81X6k/ufTbDrXAm9zyAHNtJgAQfCf7CyXKl6r7s0dY3ta7Fs7ZrG3PcGtEmXGNAT8A+iK30NCMXJ1FWzoc8ESCCPCDpkrcZrydOmQG9teyhIZc4utbr3cibss8hcP9y2lNwXMjf0GN5Z12Kju/vA+jWaSGuaSJygwCDAOo00WtHWym+SW6fQ6mfRQywroz69sHaRr4enWc21z2yQMxkSMusT5qycKdHmtXBYc0sad0dld4tKiK3MMe5D7bwFKu1rawNrQXGCW/UYgnkbTkrsbabZvYpyhtHqzTTyAAEeCzPPahuWWTfiepQqoSgoSgoShFCUFCUJoShFCUJoSgoShFCUJoSgoSgoy0qGEjXKEiUAlSBKASgOHa2GbWaGPzbN0SRJ4TC4nE9TOE1CL7Wey/DOlxvHLNJW7peX+bIwbPo087G5aTn8rjzyyl1Z67HBL2UcmO2sxmhzWCTZuRw95Mqu18cKxBPCQPOPyVsFymrqnjlVdiONTgNFmkazyUqj0NmzMQWVLDmx8MePA8RyIW7p58mRQvZnNzQclfdbl52Lh20HG3O7JxPPK34jzXVlDbZHHzZHPr2NO82PFwpOOXasqGeDDTtI93eqzwJLds2tHhuPpEuzXxsl938UHYdhB0Ju5XON5joXx5FZ0m3RxddCUdS14/4/Y843FB9UUwQWNDu1OoudEN6gAz/EFn0O7wrA4pza69Cvbx7rGkBisKC6lMvaMyyeI/Z+OmmjPByvmh43X1+503De0TG6m87Gs7Kq8Msa1lMHJsNmSTwcZ48gt/G45F5nl+L8OyuXpMMbttvx7bV4Is3/AJyiY/WB7icmsIcSeAkZBJJRKtFw/Uyg5zjypdXL1UvixUqFxudE8hoPz0H95rFK/d/fX7GrqddCCePBv4y/aPgvPq/I8yszjmZQGJQCUB6YJIEiSYEkCTykqHKja0ujzaqTjijbStmajC0lrgQ4GCCikmrRTkxTxzcJKmux47RgIFR4aCYk5+yiUqRv8M4Vm103GGyj1fh5e834zDOpOtdxAc0jQg6FITU1aNfW6PJpcno5/wCTRKyNQSgEqQJUASgEoDIKEo8ShIlAYlSDMoBKAidv4o0mh/A909dR9/RcLi+J3Ga9x7T8K6iHLPDLrfMvo/2KXtDbbnZDJcmMD2L1EYeyiFrYgnUq1JI0suolLqzZ+hO7FtckWOfYAD3spkxoNFnji8kuWPWrKJWo876WaH946QOQmFbPEoOiFN5HfbwPYoykY77GbxokcJi69OADc3k7PJb+PUzjs1Zp5NHCRjHvdWfe5rw8gA6OGQgRpyWUscMr5lafw/gjFjeGPIuhZtkOrVKbaFCkadNoh1SpmeZLWxBJM8wt7Hy440jnrhnpM7zZXd9u3uOmpQsqDD0hmPq6nPM8SnNbO2lS2Lju9RDO485nXz4KMl1aD6G3aG5eFqOvsAnW3L4VcM/zIcU+qN1Ld+hQpPFKk1rrSbgJd3c4uOfBZembktzR4lp45NJOKXa/luREraPnolBQlQBKkCUBB7cxJ7ejSac5DiP9wj/iVRkl66ie7/CWLlwZcrXV18k/uWXfLEup9k5hirUY0CNciZd1iB5hUwlVxXidHR8Lx5+Jf1GRerCN/wDbdL5L9iR2nsltanh6kfrGPFx4kEE97nmAUjKsjT6G3jy+jclHozXvFWBexnFjId1JmPSPVWadbN+J4f8AEOWM86hH/at/j2ImVsnAEoBKASgEoBKAy0qGSjXKE0JQUJQCUIoShNHmrTa8Fr2hzTqHAEHyKxlFTVSVozx5J45c0HTXgfM9nU2NxFcVQHMpMrWh+hcHWM85IXnYqMZS5lsk/n0R7zJLLkWNQbTk4212XV/oQzadxPICec+C1Wn0OhGCnJ+CNjajrbc7QZA4CdVnicoS5kS23Dk7G3DEcVnPLLI/WNjSwjC77nZTYJVuIuzRXYlcGwLdgaTRO4GgCRkr0yC07OoiEcmYshMNgXMr1aknvXWObaXNJEAwcpCujDdsstctGd2tjClX7YVH6G+9xcXk8XcyoWCMHav5kJpRou2zqLGl72fVUde8lznEnQa6ADIDgsJRoOTaokXiWnofhV9GV5PYkvJ/QpMronzKhKAShAlCRKEUVl57TabWjQPaz0GfvK0LvO2fTeC4Xi4ZG+6b+b2LNRf+mY81NabD2VHlaziOpk+asw0k5nVz/kYVjXV7y+xbdp4rsKfC7SmP2ozPQD3KrhHnl9TznE9ctLhte09l9/gVNzyTJzJzJPNb/Q8FJuTt9TEoRQlAJQCUAlCKEoSemlQwjXKEiUAlAJQCUAlCT5nvS0MxNa0jvPk28MgSOskyvNamnnkl0s+icO5oaGEpe0138EcGzaYcYmNS7oIy91ZijbovxypHupSl1reqxlD1qRcpWjw1sKlqmXQOqkVZidM2JK0SmEqLfizTkiw7OqhXIraLBTxFrDHKFnGO5iRz8VbK2USa6O1adMy465QMz5BZtxS3MlFlgwe0Ji1lSJ1DSAoaTMuQncPjW1KD6jSCAx+Y5tBBHWQtSUakkauqlyYZvwi/oVOVunzYSgEoBKAwXRmdBmUbrcyjBzkorq9iB3bwTMQ+q99Xsi5xFMxNzqhPd9J9VzYTtuK6s+y4sEsOKDUbUUk17kfQNhbGGDkPzFNpeXDiNZHorXNPGow9xydZquZyzS6dfgiH2hjXVnl7tNGjkOS2scFBUfOdbq56rK8kvgvBHNKzNQSgEoBKASgEoBKAy0oyUa0skJZASwJQkSgODbm0Rh6JqfjPdpjm4/Ya+S1dZqPQ4m+72R0uFaH+r1Ci/ZW793h8T5finlzszJ4k8SdSuBjXc93qJbqK7GMLWsd4EQVbzcsyqDV0ySZhw45OIGoOWqu5b7lzika8VTLTrPiMs+iqyxaLISM0nKvH1NxSuJJYRb8DXmiXwlS1bESpk3h6pcPlXRK2Q+2sNV7QkEdn+G3WPHxSSl1XQmLpm7YjnNcIZp7+asxvyNiWRUX3Zr3P+plvnKT2KOYkceBTw1SNLbfNxj7qhPmmjn8Uny6TI/KvnsVCVungAlkCUAlCTm2mJoVR+7f/AMSqtR/pS9zOhwlf+dh/5R+pH7s4Oa1Fs5z2h8I/sLk6ROeRvsj7XrJrT6Rru9vmfS9461uHdGptpn1k+wW3gVzPnPGMjhpZV3pFNldCzxIQmglkCUsCUsBLAlLASwemlQyUa0JCASgCAICj76Y26rYDkzuj+IgFx92jyK89xHLz5uXsj3XAtOsOkWRrebv4FWdqsIdDcm7Z4coyGBsw+LczQ5aEFYRySiZxm0dNTaVwi2J1Mz6Kx57VUZxybnqi6DHosYbM3ISrYkMPVhbkJEvclaNYLYiyqiUwWKhXxZjJHWKgcZKuTMaJfAACIAWZBZMAFVMDeN8YeOb2j2J+yrxL1zjcdlWlrxa/cqq2zxgQBAEBz498UneIt/my+61tXPkwt/A734Z0r1HE8UeyfM/+u/1o9bhUL8S5/AQ0LV0keTC5eJ9K4zmuXKW3emp+pY06uqF/kAR/UFsYF679x4Hj8/yox8X9EVhbZ5U7tisa9+YkDLPT0WE262PX8N4JCOJZtQrb6R7JefmdO8WCZScx1MQHtJI4SDw9VXhm3afY5PGdJjwZIvGqT7EQrzjBAFICgBAZaUZKPEoSJQCUAlAJUN1uSlbo+X4+re41DxueernEryTlzTb8WfTo4ljxqK6RVEctuPQ0mYcomDyquxB5VYO7DG5scQrobo28UridVF/Aq+Eiy2ddKqQr4tk2mdVPFkK1TJ2OuhjjxVkcgpE5s/H+K2scrMHG+hZMPtulTbNSo1g43EA+Q4rKdErC37Wy8yPq7ztxziymCKdKLS7IvumXRwGWQ/OBhhg1bZ5n8Szv0cYezv8AF7bnmVeeVEoAgEoCG2zjM7B+EEn+KMvQfK4+vyc8lBdF9T6h+DOHf0+CWryL1prb/j/P0os/+HFH9WXxmZW5XLhSLdfk58rJne/DQylU5EsPmJHwVOnl6zR4/j2K1HIvd8yqVqkQBq4wPuVtGnwPQf1WpuXsR3f7L4v9Cy7CwsAcuCqmz22Wds5d6K81hT4MaB5nvH5HoowL1b8TxHG83PqOX/1X8kRKvOOJQCUIoShIlAZaVDCNcoSJQGZQUJQUeKp7p4ZH4WM/ZfuLcC/Nj719T5ViXxkOpXk8fifStTNL1Uc62k9jSEI1ZBgrCXsg8lVtEHTgjmrMXUvwkpQoytuELL2zpbSgq5RoiyRwuHDlsQimY7lj2XscGJA8xKv5YoKckdG/eBZS2bUNNoaQ+mZaAD9bW6jPitbO2oWvL6lmbPLk5Uz5XQdBnmoxSp2aXctW6dSKrm82fBC6ETkcchenUvB/UtcqTylGJQUJQUC6M1EnUWy3Bj9JljDxaXzZVnSQ5x1Mrzjnz1Z98hijjxtRWyVL3I+ibg5UhHILuZV+WjxWpfrtvxJve4E4fLg9rj0zHy4KnT7TOBxiLlp3XZplDwgFXE2mYaLQR/qOZ+3ot1bnS4Hg9BoFPvN38Oi+/wAS64YGg01H/wCW0Tll0HU5BU5GpbLqWanPHFBzl0RVMRXL3ue7Vzi4+ZV0VyqjwGXI8k3OXVuzxKkrEoKEoDEoDMoKMtKhko1ypFCUJEoKEoCv727VFOn2LT33/VHBvj1/NcviOoqPoo9X1938nouBaK5/1E1svZ834/D6lDe08QuPE9FOMrthoV0DCqPR0Wy0lEwNZWvJW0kA4LGUaJN2E1TF1LsZYcAzJdLEtjNs6K9NWSiIskdjMzEq/CthJl42cyBKzbIOTfykXbMrjja1/wDLUa4/Coz/AOnIxn0PjVNa2J3sUsndhYqyo2oeGTuhyK6eGXMqKNZh9PgcPH6l5lWHiHFp0xKECUBrxDoY48muPsVTqJVik/JnR4Ri9Jr8Mf8A7j9SvPMNjwPuvN2fdJ+y0Xb/AA/r9yDwMei9DGXPhTPFcRxcmRpF5xrA5kOEgtIIWvj2kczljNVLdPqU/AbuGhUvY4vpky66L2k5nMZOHotuM0rTN30iUFBKqVI3714giygNLRUd4zIaPKD6rHCrbkeU45qG5LEunVlelbBwBKASoIoSpJEoKEoKPTSoYSNcoSJQCUsCUBQ968I5uJc5xkPF7Tplpb5QvOa6Dhmd99z3PCpRzaWLWyjt8V9yEzJz91qo3fWk9wclsYjCex5cVfJlJhgkqMS5pWDNslY5I3IlG/DMzUQjTLo9CyYBuS6WJbEne6jIV3LYTO7Ywh0FWRVIFywmkLFg6Np4dtWi+i76X03MPRzSFCjzWn3Il0PgIBaYOoMHqFz8dwlTKjsw7odHNdLG+WQRYdm7w2NDKmYGQPGPE8VtbM5Gq4Xjyycoum/kTGB2uysYax/WGkeso4eZzc3C/RRuU0SErA5TVOjRjHRTd0j1yWtrH+TI7n4Zxc/FMK8G38k2Qz/ZeeXU+0stm4oy14kx5r0eFVgSPF8VleaR9Bq/SAVqx6nJ7I58OyCRwOvirJu1Zm5Wiqb3vH6SQODGD2n7q7T+weU4u71HwRCyrzliUAlAJQCUsCUsGWlQ2SjXKEiUAlAJQFV3za42Et7rZEgz9URPLT3XD4i5OatHr+CQxrBKpN291VV9yqkrno67Z5cVfGVdCifU8ErJyMDZTC2cSqJB09jl4qZQM6N+EpZ9NVEIGcWT2CbC3YKiSXpsyVyJJLZtDwWQLLhlgDpeJ9FnAxkfDt4KNmKqt/eOPqZ+61s8PzCtmmyLfEA+X9hbSj0IPfZmcucjx/7V7wS7MrbRM4TbtZoAdDmjLvDMen/at9FaOfm4dgyu+j8iYwW2mvycLTzm4fGSh4X2Obm4TKKvG78jqxz5ZAzuIGXr9lyuIyrGo+J3fwZpJPXyySXsRfze33InEPztHRc3T4+eR9K1GZQi2Xjc2haAu/JVCjw+pnzycvEu1U5Afs/C0Ymm+iPNOBLiYABJPIAST6JJmPN4nzrH4o1ar6p/E4noOA8hAW7CPLFI8dqMvpckp+LOeVkUiUAlAJQCUAlAemlGSjXKWBKWBKWBKA4tq4IVqbmwJIymftoVpavT+kg66nX4XrvQZVGd8r22o+f12FpLYiMjz9VwEvE9hPwjsjlKsSNRiFZykGxroMhbEHb2DJjBFtTT6tSPuPBbiSkTGVnZhsIZ6ZLJRozRKUqBCsRJ34c8FmjIncEyEsExQCiyLJGlTySzCR843k3Mqio/FE33PJtY0mAefNXcsZy5iFTZUuwJqkEEWwIOogaK/Dj5p2+xXklynTRoB1Mc9Qt2K9U1m3Zrt4HVKMkw0wVBkS2Cf3Luv5fZee4vPmyqHgvqex/D+JQ00sj/ANz/AEX9sYNt9QLHR4qdmPEtR6lH0vdylDAF0Mr2PNZGWfED6ei0Y9yqRXt6do9nR7EHv1Bn4U5z9SI6Aq3HHmlfgcrieo9Hi5F1l9P5+5TZW3Z5sSlgSlgSlgSlgSlgSlgy0qGyUjVcoMqMXIKFyCjNyWFGyubZ3gjuUD1eI/8An8/Ras8rltHoeh0fC4wXPmVvw8Pf9iq1CSSSc+M5rUlhj4HV5mzXaqFh2sWYhQ4E2egFdCPKYtmxjiCCCQeBGRWwlRBNbP25blUbI5tyPmOKtRmptFgwmOpVR3HCeRyPpqskZqaZ3YYC5ZFiZYsKBAWJjZJUSEB2U6oCmrIODbW2qdGm5zj4DxPAK/HjbZFVuz5Ri6hc5zvxvcSep/ILpRjyxruac588r7GcMQJbyWa8DB7nmq3ijJTNVpJga6LGTSVssxxlOSjFbslqdIw2m3ovNcr1GZzfSz3rUdJpI4+6X+f1JbD4DsyCB6rpxgkeWyZZTdsvOwW5DnqsMz2NXIS+18eyi295gNAgDVziPpb4rUxq+hXqJwww58nT6+SPnWPxrq1R1R+pOnADg0eAGS24x5VR4/UZpZsjnLv+nkaLlkU0LkFC5BQuQULkFC5BQuQUZa5GSkaJWJlQuSxRqxWKbSbe8wPk8gsJ5FBWy/Bpp55csF9l7ys7Y2/2o7OmCGfiJMF3hloFqZM/Pt0O9pOHwwPmk+aX6IhbkUqN7YwRKmW6FAhNqog8wseUGFDQPTDwWWN9mD0Wq6iDIKyTBIYXa1an9LyRyf3vnNWrcKTRYMDvo9sCpSB5ljo9iPupWOzL0hJ09+qXFlQeTD/UsliJ9IjGJ33kRSYZ/eQ34mfZWww+ZLzJdEVzGbRqVnXPdceWgHQcFtQSXQ15zcup4ZzOvx4BWLxKW+xrw1Tv9VCluZNbHTUWRBMbO2eA2TF5GfGJ4BcvJleZtf7Vt7z1WDDj0EIykryNX7r7fcldm4CDnnPNY44KC2KNZrJZ35FgbgRA1j1Cy5znuRJYOu2jTdUf9DBcYETwAHiTA81Rm32RVlnGEXOXRb/x8Sn7U2m/EVDUeedoGjRyCzjHlVI8nqtVPUT55/BeByXLKzVoXJYoXJYoXIKFyWKMXJYoSlijNyWKMtcoslI0yosyoSlk0U3bWKdXqmP8tpLWcvE+f5LnZZ88j1Wh0kseJJLzf9+RwOoRqfZYejTNhwrua7I0KLHJdGYmRKsjzdzE9XKy0LBCyYMLHsDBCwa7g2NMjxCvhLmQPUK5Igx9Jz0S+V79CDosGoWykQxb19lmkY2bWMHirYohs38IVtmFGboCWRRqpO7yxT3M30OxuZ9llKVK2Tjg5SUV1bSJ/ZEuqFs5arh6KVwPWcWjTT+BbsJTiFttnDZL0Ty0VEmUsid8cZbTZQEC4mo8DkMm+U3HyCwx7ys5fFsrWOOJd93+xVLlfZwKFyWKMXJYozclihclihKWKFyWKFyWKMXJYo9NclkpGi5Y2Z0acbiLKbncYgdToqs2Tkg2bmg0/p88Y9ur9yKiXLnRPYZZ9ka3uWxE02ayFn1MGeSI6LHdEUBBRNNEAGMjokXy7MHohZskQiRAGR8OKL1ZA3gLaRBlzZELNpSVMx6HijUtMHRYwm4PlZPU7IBzW4mYUZWaZFBZWD2Spsg18ViSSOzmybjo3PzWlxDPyYuRdZbfc7HBdN6TP6R9I/XsWDdtvfLj0Wtpo8sDe4rl5pJFuoFWtnGkSeG8FRNlfVlF2xtIYivUePpDzSb/AAs7oI6xPmr1j5EkcPiqvPfavocVyWc2hclihclihclihclijNyWKMXJYoXJYoSlij01yiwkeYUGZFbf+ho/a+y09W9kdzgiXNkfkvqQBatdHWyGpwVqZQwAs0zGz1aFYiTw9g1VOTZpog9OYI9FnPoA1ohTHoEZDQskGKjRCyn0INrGiArYPZEM9holXIxZrxDAsM3QRNuECuwtuKDOm0LYRizBaFJBmFJieS0KGZIlsE0CmI46+64mrbep3PY8Kio6NNd7ZY9gsAYtyPQ4+sbeV2T+GGaiXQ05dCSmGOI1DHEdQ0kLXfUwh7R8t2OO4eo+F0NT1Rxdetov3nfC1jm0IQGIQCEFGYQUYhBQhLFCEsCEsUZAQH//2Q==" alt="AR окуляри">
+                    <p>Технологія, що доповнює реальний світ цифровими елементами. AR дозволяє:</p>
+                    <ul>
+                        <li>Накладати віртуальні об'єкти на реальність</li>
+                        <li>Отримувати інтрактивну інформацію</li>
+                        <li>Візуалізувати дані у реальному часі</li>
+                        <li>Створювати змішані середовища</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="applications" class="applications">
+            <h2>Галузі Застосування</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1582560475093-ba66accbc424" alt="VR у медицині">
+                    <h3>Медицина</h3>
+                    <p>Використання VR/AR у медицині включає:</p>
+                    <ul>
+                        <li>Хірургічі симуляції</li>
+                        <li>Навчання медичного пероналу</li>
+                        <li>Реабілітація пацієнтів</li>
+                        <li>Планування операцій</li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f" alt="VR в освіті">
+                    <h3>Освіта</h3>
+                    <p>Революція в навчанні через:</p>
+                    <ul>
+                        <li>Віртуальні лабораторії</li>
+                        <li>Інтерактивні уроки</li>
+                        <li>3D-моделювання</li>
+                        <li>Віртуальні екскурсії</li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <img src="https://psm7.com/wp-content/uploads/2022/02/Depositphotos_446756528_L.jpg" alt="AR у промисловості">
+                    <h3>Промислов��сть</h3>
+                    <p>Оптимізація виробництва завдяки:</p>
+                    <ul>
+                        <li>Віртуальному прототипуванню</li>
+                        <li>AR-інструкціям для працівників</li>
+                        <li>Котролю якості</li>
+                        <li>Віддаленій підтримці</li>
+                    </ul>
+                </div>
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1592478411213-6153e4ebc07d" alt="VR у розвагах">
+                    <h3>Розваги</h3>
+                    <p>Нові формати розваг:</p>
+                    <ul>
+                        <li>VR-ігри та симулятори</li>
+                        <li>Віртуальні концерти</li>
+                        <li>Інтерактивне кіно</li>
+                        <li>AR-атракціони</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="stats">
+            <h2>VR/AR у цифрах</h2>
+            <div class="stats-container">
+                <div class="stat-item">
+                    <h3>171 мл��д $</h3>
+                    <p>Прогнозований розмір ринку до 2025 року</p>
+                </div>
+                <div class="stat-item">
+                    <h3>82%</h3>
+                    <p>Компаній планують впровадження VR/AR</p>
+                </div>
+                <div class="stat-item">
+                    <h3>70%</h3>
+                    <p>Підвищення ефективності навчання</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="author" class="learn-more">
+            <h2>Дізнатися більше</h2>
+            <p>Хочете глибше вивчити тему VR/AR технологій?</p>
+            <div class="learn-more-content">
+                <div class="wiki-link animated">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Читати на Вікіпедії</h3>
+                    <p>Детальна інформація про історію, розвиток та принципи роботи VR/AR технологій</p>
+                    <a href="https://uk.wikipedia.org/wiki/Віртуальна_реальність" class="btn primary" target="_blank">
+                        Перейти до статті
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>VR/AR Tech</h4>
+                <p>Впроваджуємо майбутнє сьогодні</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Виконав</h4>
+                <p>Яремчук Валерій</p>
+                <p>Студент групи 1КН-24б</p>
+            </div>
+            <div class="footer-section">
+                <h4>Корисні посилання</h4>
+                <ul class="footer-links">
+                    <li><a href="https://uk.wikipedia.org/wiki/Віртуальна_реальність" target="_blank">
+                        <i class="fab fa-wikipedia-w"></i> VR на Вікіпедії
+                    </a></li>
+                    <li><a href="https://uk.wikipedia.org/wiki/Доповн��на_реальність" target="_blank">
+                        <i class="fab fa-wikipedia-w"></i> AR на Вікіпедії
+                    </a></li>
+                    <li><a href="https://chat.openai.com/" target="_blank">
+                        <i class="fas fa-robot"></i> ChatGPT
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 VR/AR Tech. Всі права захищені.</p>
+        </div>
+    </footer>
+</body>
+</html>
